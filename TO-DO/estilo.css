@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+
+}
+#newTask {
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+}
+button {
+    height: 35px;
+    color: white;
+    background-color: rgb(65, 79, 202);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(81, 81, 87, 0.308);
+}
