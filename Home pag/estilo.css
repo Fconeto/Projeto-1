@@ -1,0 +1,40 @@
+
+#container {
+    background-color: grey;
+    padding: 15px;
+    text-align: right;
+}
+
+#log {
+    text-align: right;
+    display: inline-block;
+    font: bold 20px "arial";
+    padding-right: 25px; 
+}
+/* text-decoration: none; retira o sublime que fica
+embaixo dos links */
+a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 10px;    
+}
+#lorem {
+    color: red;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 10px;
+    text-shadow: 1px 1px rgba(146, 104, 104, 0.705);
+}
+#conteudo {
+    text-align: right;
+    /* display: inline-block; deixa o texto lado a lado mesmo em divs diferentes */
+    display: inline-block;
+    font: bold 20px "arial";
+    padding-right: 30px;
+}
+#videoy {
+    text-align: center;
+}
