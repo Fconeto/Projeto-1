@@ -1,0 +1,84 @@
+/* precisa sempre retirar o padding e margin do body */
+body {
+    padding: 0;
+    margin: 0;
+    
+    background-color: black;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+header {
+    background-color: rgb(50, 50, 187);
+    padding: 13px;
+    color: white;
+    text-align: center;
+}
+.title {
+    padding: 0;
+
+    margin: 0;
+    font-size: 27px;
+}
+section {
+    color: rgb(0, 0, 0);
+    background-image: url("palestra.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    padding: 15px;
+}
+.formContainer {
+    max-width: 230px;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 2%;
+    float: right;
+}
+h2 {
+    font-size: 18px;
+}
+.mb {
+    margin-bottom: 15px;
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rgb(50, 50, 187);
+    font-weight: bold;
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+
+.picture {
+    width: 50vmin;
+}
+footer {
+    background-color: rgb(75, 70, 70);
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.description {
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+.description p {
+    margin-bottom: 20px;
+}
