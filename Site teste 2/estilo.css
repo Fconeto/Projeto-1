@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logoname {
+    display: inline-block;
+    background-color: brown;
+
+}
+.logo {
+    color: black;
+    float: left;
+    background-color: blue;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: rgba(97, 88, 88, 0.856);
+    overflow: hidden;
+    height: 55px;
+    max-height: 100px;
+}
+.band {
+    width: 50px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+.menu {
+    float: right;
+    margin-top: 1em ;
+    font: bold 17px "arial";
+}
+.sobre, .login, .cadastro {
+    display: inline-block;
+    margin-right: 35px;
+}
+.m {
+    color: white;
+}
