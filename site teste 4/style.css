@@ -1,0 +1,31 @@
+h1::first-letter {
+    font-size: 2em;
+}
+p::first-letter {
+    color: royalblue;
+    font-size: 2em;
+}
+p::first-line{
+    color: red;
+}
+li {
+    /* margin-left: 20px;
+    list-style-image: url(Manhã.png); */
+    list-style: none;
+}
+li::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 30px;
+    background-image: url(Manhã.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p::selection {
+    background-color: yellow;
+    color: rgb(92, 23, 88);
+}
