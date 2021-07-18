@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+
+    background-color: gray;
+    height: 400px;
+    color: honeydew;
+}
+
+.r1 {
+    flex-grow: 1;
+    background-color: red;
+}
+
+.r2 {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.r3 {
+    /* flex-shrink: 1; */
+    flex-grow: 3;
+    background-color: green;
+}
+/* .r4 {
+    background-color: yellow;
+} */
+
+.rect {
+    width: 250px;
+    height: 150px;
+}
